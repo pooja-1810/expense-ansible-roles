@@ -1,0 +1,5 @@
+- name: configure backend server
+  hosts: mysql
+  become: yes
+  roles:
+  - backend           # go to roles folder and import all present in backend folder
