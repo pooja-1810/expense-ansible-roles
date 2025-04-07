@@ -1,5 +1,5 @@
 - name: configure mysql server
   hosts: mysql
   become: yes
-  roles:
-  - mysql           # go to roles folder and import all present in mysql folder
+  roles:       # go to roles folder and import all present in mysql folder
+  - mysql
