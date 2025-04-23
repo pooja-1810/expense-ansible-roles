@@ -1,5 +1,7 @@
 - name: configure mysql server
   hosts: mysql
   become: yes
+  var_files:
+  - /var/expense/credentials_mysql.yaml
   roles:       # go to roles folder and import all present in mysql folder
   - mysql
