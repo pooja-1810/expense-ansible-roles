@@ -1,1 +1,3 @@
 BACKEND_HOST: backend.pooja.icu
+app_location: /usr/share/nginx/html
+component: frontend
